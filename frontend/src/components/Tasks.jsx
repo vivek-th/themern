@@ -32,7 +32,7 @@ const Tasks = () => {
     <>
       <div className="my-2 mx-auto max-w-[700px] py-4">
 
-        {tasks.length !== 0 && <h2 className='my-2 ml-2 md:ml-0 text-xl'>Your tasks ({tasks.length})</h2>}
+        {tasks.length !== 0 && <h2 className='my-2 ml-2 md:ml-0 text-xl'>Your tasks are ({tasks.length})</h2>}
         {loading ? (
           <Loader />
         ) : (

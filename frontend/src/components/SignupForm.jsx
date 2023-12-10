@@ -52,7 +52,7 @@ const SignupForm = () => {
           <Loader />
         ) : (
           <>
-            <h2 className='text-center mb-4'>Welcome user, please signup here</h2>
+            <h2 className='text-center mb-4'>Welcome user, please signup here only</h2>
             <div className="mb-4">
               <label htmlFor="name" className="after:content-['*'] after:ml-0.5 after:text-red-500">Name</label>
               <Input type="text" name="name" id="name" value={formData.name} placeholder="Your name" onChange={handleChange} />
