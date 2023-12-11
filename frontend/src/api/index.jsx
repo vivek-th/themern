@@ -1,7 +1,7 @@
 import axios from "axios";
+const baseURL = process.env.baseURL;
 
 const api = axios.create({
-  baseURL: "https://deploy-themern-api.vercel.app/" || "/api",
+  baseURL: "/api",
 });
-
 export default api;
