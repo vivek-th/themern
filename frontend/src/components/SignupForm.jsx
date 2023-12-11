@@ -52,7 +52,7 @@ const SignupForm = () => {
           <Loader />
         ) : (
           <>
-            <h2 className='text-center mb-4'>Welcome user, please signup here only</h2>
+            <h2 className='text-center mb-4'>Welcome user, please signup here only for next steps</h2>
             <div className="mb-4">
               <label htmlFor="name" className="after:content-['*'] after:ml-0.5 after:text-red-500">Name</label>
               <Input type="text" name="name" id="name" value={formData.name} placeholder="Your name" onChange={handleChange} />
@@ -74,7 +74,7 @@ const SignupForm = () => {
             <button className='bg-primary text-white px-4 py-2 font-medium hover:bg-primary-dark' onClick={handleSubmit}>Submit</button>
 
             <div className='pt-4'>
-              <Link to="/login" className='text-blue-400'>Already have an account? Login here</Link>
+              <Link to="/login" className='text-blue-400'>Already have an account? Login here .</Link>
             </div>
           </>
         )}
