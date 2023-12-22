@@ -1,6 +1,6 @@
 # MERN Task Manager
 
-A MERN application for basic tasks management.
+A MERN application for tasks management.
 ![image](https://github.com/vivek-th/themern/assets/91933018/e0844cb5-9ede-4374-a1c4-ac7d2a1fc896)
 ![image](https://github.com/vivek-th/themern/assets/91933018/b9f19eb6-1907-4427-96cc-ce9fe816ef66)
 
